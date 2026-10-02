@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Contact Bella Bistro and reserve your table."
+    />
+
+    <title>Bella Bistro | Contact</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="logo"> Bella<span>Bistro</span> </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="menu.html">Menu</a></li>
+
+          <li><a href="gallery.html">Gallery</a></li>
+
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">GET IN TOUCH</p>
+
+          <h1>Contact Us</h1>
+
+          <p>We'd love to hear from you.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <!-- CONTACT INFORMATION -->
+
+          <div class="contact-info">
+            <p class="eyebrow">FIND US</p>
+
+            <h2>Let's Talk</h2>
+
+            <p>
+              Have a question, want to reserve a table, or planning a special
+              event? Send us a message.
+            </p>
+
+            <div class="contact-detail">
+              <span>📍</span>
+
+              <div>
+                <h3>Address</h3>
+
+                <p>
+                  123 Main Street,<br />
+                  Nagpur, Maharashtra
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>📞</span>
+
+              <div>
+                <h3>Phone</h3>
+
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>✉️</span>
+
+              <div>
+                <h3>Email</h3>
+
+                <p>hello@bellabistro.com</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>🕐</span>
+
+              <div>
+                <h3>Opening Hours</h3>
+
+                <p>
+                  Monday - Sunday<br />
+                  11:00 AM - 10:30 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTACT FORM -->
+
+          <div class="contact-form-wrapper">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name"> Full Name </label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+
+                <small class="error" id="nameError"> </small>
+              </div>
+
+              <div class="form-group">
+                <label for="email"> Email Address </label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+
+                <small class="error" id="emailError"> </small>
+              </div>
+
+              <div class="form-group">
+                <label for="phone"> Phone Number </label>
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message"> Message </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message"
+                  required
+                ></textarea>
+
+                <small class="error" id="messageError"> </small>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+
+              <p id="formSuccess" class="success-message" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="footer-logo"> Bella Bistro </a>
+
+          <p>Delicious food. Beautiful moments.</p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="menu.html">Menu</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+
+          <p>📍 Nagpur, Maharashtra</p>
+
+          <p>📞 +91 98765 43210</p>
+
+          <p>✉️ hello@bellabistro.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Bella Bistro. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
